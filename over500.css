@@ -1,0 +1,45 @@
+@media screen and (max-width: 300px){
+    p{
+        font-size: 100%;
+        line-height: 160%;
+    }
+    p.img{
+
+        width: 200;
+        height: 200;
+    }
+    body{
+       background-color:slategrey;
+       background-size: cover;
+   }
+   
+h1,h3{
+    font-size: 100%;
+    line-height:75%;
+    text-align:justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+    
+}
+@media screen and (min-width:780px){
+   body{
+       background-color: tan;
+       background-size: cover;
+   }
+       
+h1,h3{
+    font-size: 100%;
+    line-height:55%;
+    text-align:justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+   }
+
+@media screen and (min-width:900px) {
+   body {background-color:seagreen;
+    background-size: cover;
+    height: 100%;
+    width: 100%;}
+}
